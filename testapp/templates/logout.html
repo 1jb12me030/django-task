@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logout</title>
+</head>
+<body>
+    <h2>Are you sure you want to logout?</h2>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Logout</button>
+    </form>
+
+    <p>You're currently logged in. Click above to logout.</p>
+</body>
+</html>
