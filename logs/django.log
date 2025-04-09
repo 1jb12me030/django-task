@@ -1,0 +1,9 @@
+[2025-04-09 11:42:34,727] INFO django.utils.autoreload: Watching for file changes with StatReloader
+[2025-04-09 11:43:22,609] INFO django.server: "GET / HTTP/1.1" 200 447
+[2025-04-09 11:43:24,300] WARNING django.request: Not Found: /favicon.ico
+[2025-04-09 11:43:24,303] WARNING django.server: "GET /favicon.ico HTTP/1.1" 404 4031
+[2025-04-09 11:43:28,572] INFO django.server: "GET /login/ HTTP/1.1" 200 670
+[2025-04-09 11:43:38,431] INFO django.server: "POST /login/ HTTP/1.1" 302 0
+[2025-04-09 11:43:38,450] INFO django.server: "GET / HTTP/1.1" 200 671
+[2025-04-09 11:43:42,233] INFO django.server: "POST /logout/ HTTP/1.1" 302 0
+[2025-04-09 11:43:42,243] INFO django.server: "GET /login/ HTTP/1.1" 200 670
