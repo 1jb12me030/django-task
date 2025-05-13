@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+#debug = false
 
 # Application definition
 
@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'testapp',
     'rest_framework'
 ]
-
+#installed apps
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
