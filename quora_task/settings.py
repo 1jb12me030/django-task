@@ -106,7 +106,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+#this is the commit
+#this is commit to change 
+#this is initial commit
+#this is commit to merge pull request 
 # Internationalization
 # https://docs.djangoproject.com/en/5.2/topics/i18n/
 
